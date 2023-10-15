@@ -1,0 +1,27 @@
+//9 Implemente um programa que encontre o maior de três números.
+
+#include <stdio.h>
+
+
+int main() {
+
+int numero1, numero2, numero3;
+
+
+    printf ("Olá, vamos verificar qual é o maior número entre 3 números.\n");
+
+    printf ("Digite três números: ");
+    scanf("%d %d %d", &numero1, &numero2, &numero3);
+        if (numero1 < numero2 && numero2 > numero3){
+            printf("O valor maior é o %d\n", numero2);
+ 
+        }
+        if (numero1 > numero2 && numero1 > numero3){
+            printf("O valor maior é o %d\n", numero1);
+        }
+        if (numero3 > numero2 && numero3 > numero1){
+            printf("O valor maior é o %d\n", numero3);
+        }
+
+     return 0;
+}
