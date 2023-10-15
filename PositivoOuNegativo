@@ -1,0 +1,28 @@
+//12 Escreva um programa que determine se um número é positivo, negativo ou zero. Solicite o número como entrada do utilizador.
+
+
+
+#include <stdio.h>
+
+
+int main() {
+
+int num;
+
+    printf("Vamos verificar se o número é positivo, negativo ou zero.\n");
+    printf("Por favor indica-me um número: ");
+    scanf("%d", &num);
+    if(num >0) {
+        printf("O número %d é positivo.\n", num);
+    }else if (num < 0)
+    {
+        printf("O número %d é negativo.\n", num);
+    }else if (num = 0){
+        printf("O número %d é zero.\n", num);
+    }else{
+        printf("O valor introduzido é inválido.\n");
+    }
+    
+
+return 0;
+}
