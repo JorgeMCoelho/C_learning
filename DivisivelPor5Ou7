@@ -1,0 +1,26 @@
+//13 Implemente um programa que verifique se um número é divisível por 5 ou 7. Peça ao utilizador para inserir um número.
+
+
+
+#include <stdio.h>
+
+
+int main() {
+
+int num;
+
+    printf("Vamos verificar se o número é divisível por 5 ou 7.\n");
+    printf("Por favor indica-me um número: ");
+    scanf("%d", &num);
+    if((num % 5 == 0) ||(num % 7 == 0)) {
+        printf("O número %d é divisível.\n", num);
+    }else
+    {
+        printf("O número %d não é divisível.\n", num);
+    }
+    
+    
+    
+
+return 0;
+}
