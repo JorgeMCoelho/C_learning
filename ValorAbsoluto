@@ -1,0 +1,23 @@
+//16 Crie um programa que calcule o valor absoluto de um número inserido pelo utilizador.
+
+
+
+#include <stdio.h>
+
+
+int main() {
+
+int num, numa;
+
+    printf("Vamos calcular o valor absoluto de um número.\n");
+    printf("Por favor indica-me um número: ");
+    scanf("%d", &num);
+
+    numa = num < 0 ? -num : num;
+
+    printf("O valor absoluto de %d é %d.\n", num, numa);
+    
+    
+
+return 0;
+}
