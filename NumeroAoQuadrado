@@ -1,0 +1,23 @@
+//15 Crie um programa que calcule o quadrado de um número inserido pelo utilizador.
+
+
+
+#include <stdio.h>
+
+
+int main() {
+
+int num, numq;
+
+    printf("Vamos calcular o valor quadrado de um número.\n");
+    printf("Por favor indica-me um número: ");
+    scanf("%d", &num);
+
+    numq = num * num;
+
+    printf("O valor quadrado de %d é %d.\n", num, numq);
+    
+    
+
+return 0;
+}
