@@ -1,0 +1,23 @@
+//10 Crie um programa que verifica se um ano inserido pelo utilizador é bissexto ou não.
+
+#include <stdio.h>
+
+
+int main() {
+
+int ano;
+
+    printf("Vamos verificar se o ano é bissexto.\n");
+    printf("Por favor indica-me qual o ano que queres verificar: ");
+    scanf("%d", &ano);
+    if((ano % 4 == 0 && ano % 100 != 0) || (ano % 400 == 0)){
+        printf("%d é um ano bissexto.\n", ano);
+
+    }else{
+        printf("%d não é um ano bissexto.\n", ano);
+    }
+
+    //printf("%d\n", ano);
+
+     return 0;
+}
