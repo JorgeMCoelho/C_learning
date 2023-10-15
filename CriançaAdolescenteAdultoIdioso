@@ -1,0 +1,35 @@
+//11 Implemente um programa que recebe a idade do utilizador como entrada e determina se ele é criança (0-12), adolescente (13-17), adulto (18-64) ou idoso (65+).
+
+
+
+#include <stdio.h>
+
+
+int main() {
+
+int idade;
+
+    printf("Vamos verificar se o user é uma criança (0-12), adolescente (13-17), adulto (18-64) ou idoso (65+).\n");
+    printf("Por favor indica-me a tua idade: ");
+    scanf("%d", &idade);
+    if(idade >=0 && idade <= 12) {
+        printf("%d é uma criança\n", idade);
+
+    }
+    if(idade >=13 && idade <= 17) {
+        printf("%d é um adolescente\n", idade);
+
+    }
+
+    if(idade >=18 && idade <= 64) {
+        printf("%d é um adulto\n", idade);
+
+    }
+
+    if(idade >= 65) {
+        printf("%d é um idoso\n", idade);
+
+    }
+
+return 0;
+}
