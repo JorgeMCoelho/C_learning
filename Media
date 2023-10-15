@@ -1,0 +1,29 @@
+//17 Escreva um programa que calcule a média de três notas inseridas pelo utilizador e determine se o aluno foi aprovado ou reprovado. A média mínima para aprovação é 9.5.
+
+
+
+#include <stdio.h>
+
+
+int main() {
+
+float nota1, nota2, nota3;
+
+    printf("Vamos determinar se o aluno foi aprovado.\n");
+    printf("Por favor indica-me as notas dos teus 3 testes: ");
+    scanf("%d %d %d", &nota1, &nota2, &nota3);
+
+    float media = (nota1 + nota2 + nota3)/3;
+
+    if (media >= 9.5){
+        printf("A tua média é de %d então estás aprovado.\n", media);
+    }else{
+        printf("A tua média é de %d então não estás aprovado.\n", media);
+    }
+
+    
+    
+    
+
+return 0;
+}
